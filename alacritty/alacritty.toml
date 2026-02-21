@@ -1,0 +1,19 @@
+# Alacritty Configuration File
+
+# Window settings
+[window]
+  dimensions = { columns = 80, lines = 24 }
+  padding = { x = 10, y = 10 }
+
+# Font settings
+[font]
+  normal = { family = "JetBrains Mono", style = "Regular" }
+  size = 8.0
+
+# Colorscheme
+[colors]
+  primary = { background = '0x1e1e1e', foreground = '0xf0f0f0' }
+  normal = { black = '0x1e1e1e', red = '0xc34b6c', green = '0x8bc34b', yellow = '>
+  bright = { black = '0x4c4c4c', red = '0xf07171', green = '0x9df99d', yellow = '>
+  cursor = { text = '0x1e1e1e', cursor = '0x4a90e2' }
+  selection = { text = '0x1e1e1e', background = '0x4a90e2' }
